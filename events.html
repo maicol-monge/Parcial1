@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .event-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .event-date {
+            background-color: #ff5a5f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .event-date span {
+            display: block;
+            font-size: 12px;
+        }
+
+        .event-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .event-category {
+            margin-bottom: 10px;
+        }
+
+        .event-category select {
+            width: 100%;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .event-details {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h3 class="mb-4">Events</h3>
+    <div class="event-category">
+        <select class="form-control">
+            <option>Select Category</option>
+        </select>
+    </div>
+    <div class="row">
+        <!-- Event 1 -->
+        <div class="col-md-6">
+            <div class="event-card">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="event-date">
+                            Mar <br>
+                            <span>26</span>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="event-title">Crain's New York Business <span class="badge badge-success">Free</span></div>
+                        <div class="event-details">Organized by AID MIT<br>Time: 11:00AM<br>Duration: Feb 29 - Mar 2<br>Place: The Liberty Warehouse, New York</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Event 2 -->
+        <div class="col-md-6">
+            <div class="event-card">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="event-date">
+                            Feb <br>
+                            <span>29</span>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="event-title">Film Festival</div>
+                        <div class="event-details">Organized by American Nuclear Society<br>Time: 11:00AM<br>Duration: Feb 29 - Mar 2<br>Place: Workbar - Central Square, Cambridge</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Event 3 -->
+        <div class="col-md-6">
+            <div class="event-card">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="event-date">
+                            Feb <br>
+                            <span>21</span>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="event-title">Newmarket Nights</div>
+                        <div class="event-details">Organized by University of Oxford<br>Time: 6:00AM<br>Duration: 6:00AM - 5:00PM<br>Place: Cambridge Boat Club, Cambridge</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Event 4 -->
+        <div class="col-md-6">
+            <div class="event-card">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="event-date">
+                            Dec <br>
+                            <span>16</span>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="event-title">Folk Festival</div>
+                        <div class="event-details">Organized by Harvard University<br>Time: 9:00AM<br>Location: Cambridge Masonic Association<br>Place: Porter Square, North Cambridge</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Event 5 -->
+        <div class="col-md-6">
+            <div class="event-card">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="event-date">
+                            Dec <br>
+                            <span>31</span>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="event-title">31st Night Celebration</div>
+                        <div class="event-details">Organized by Chamber Music Society<br>Time: 11:00PM<br>280 people interested<br>Place: Tavern on the Green, New York</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
